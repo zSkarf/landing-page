@@ -16,19 +16,54 @@ html, body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: bold;
 }
 
-a {
+a, .description{
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+    max-width: 650px;
+    margin-bottom: 16px;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     gap: 18px;
+}
+
+.context {
+    background-color: #1F2937;
+    padding: 50px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.troll-image {
+    height: 300px;
+    width: 400px;
+}
+
+figcaption {
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.david {
+    color:antiquewhite;
+}
+
+.sign-up-top {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-radius: 5px;
 }
