@@ -1,0 +1,12 @@
+.header, .context, .footer {
+    background-color: #1F2937;
+}
+
+.quotation {
+    background-color: #E5E7EB;
+    font: 36px 100 italic #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
